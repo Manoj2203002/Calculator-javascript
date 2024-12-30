@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="png" href="https://img.freepik.com/free-vector/calculator-school-supply-icon-isolated_24911-114255.jpg?semt=ais_hybrid" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="Calculator">
+        <h1>Calculator</h1>
+        <input type="text" name="Display" id="Input">
+        <div>
+            <input type="button" value="Ac" id="Ac" onclick="Delete()">
+            <input type="button" value="Del" id="Del" onclick="erase()">
+        </div>
+        <div>
+            <input type="button" value="9" onclick="Addvalue(9)">
+            <input type="button" value="8" onclick="Addvalue(8)">
+            <input type="button" value="7" onclick="Addvalue(7)">
+            <input type="button" value="/" onclick="Addvalue('/')">
+        </div>
+        <div>
+            <input type="button" value="6" onclick="Addvalue(6)">
+            <input type="button" value="5" onclick="Addvalue(5)">
+            <input type="button" value="4" onclick="Addvalue(4)">
+            <input type="button" value="*" onclick="Addvalue('*')">
+        </div>
+        <div>
+            <input type="button" value="3" onclick="Addvalue(3)">
+            <input type="button" value="2" onclick="Addvalue(2)">
+            <input type="button" value="1" onclick="Addvalue(1)">
+            <input type="button" value="-" onclick="Addvalue('-')">
+        </div>
+        <div>
+            <input type="button" value="." onclick="Addvalue('.')">
+            <input type="button" value="0" onclick="Addvalue(0)">
+            <input type="button" value="+" onclick="Addvalue('+')">
+            <input type="button" value="=" onclick="calculate()">
+        </div>
+    </div> 
+    <script src="script.js"></script> 
+</body>
+</html>
