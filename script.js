@@ -7,12 +7,11 @@ function Delete(){
 }
 function calculate(){
   if(input.value==''){
-    alert("Enter som value to calculate")
-
+    input.value="Undefined";
 }
    if (/^[A-za-z]+$/.test(input.value))
    {
-    input.value=+("erroe")
+    input.value="error"
    }
 else{
     input.value=eval(input.value);
