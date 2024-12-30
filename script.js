@@ -12,7 +12,7 @@ function calculate(){
 }
    if (/^[A-za-z]+$/.test(input.value))
    {
-    alert("Only Integers And Special Cases Allowed")
+    input.value=+("erroe")
    }
 else{
     input.value=eval(input.value);
